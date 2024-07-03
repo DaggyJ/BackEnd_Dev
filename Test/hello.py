@@ -1,7 +1,7 @@
 #Let the variables be x & y
 x = int(input("The value of x is: "))
 
-y = int(input("The value of y is: "))
+y = float(input("The value of y is: "))
 
 #Addition of x and y
 sum = x + y
