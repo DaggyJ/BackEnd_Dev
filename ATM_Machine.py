@@ -28,14 +28,14 @@ while chances != 0:
             print(f"Your A/C balance is KSH. {Bal}")
 
 #Initializing deposit
-        if user_choice == 2:
+        elif user_choice == 2:
             deposit_user = float(input("Enter the amount to be deposited :KSH. "))
             total_balance = deposit_user + Bal
             print(f"Your have deposited KSH. {deposit_user}")
             print(f"Your total balance is KSH. {total_balance}")
         
 #Initializing withdrawal 
-        if user_choice == 3:
+        elif user_choice == 3:
             
             withdraw_user = float(input("Enter the amount to be withdrawn :KSH. "))
             print(f"Your withdrawal of KSH. {withdraw_user} was diclined")
