@@ -29,7 +29,7 @@ while chances != 0:
 
 #Initializing deposit
         if user_choice == 2:
-            deposit_user = int(input("Enter the amount to be deposited :KSH. "))
+            deposit_user = float(input("Enter the amount to be deposited :KSH. "))
             total_balance = deposit_user + Bal
             print(f"Your have deposited KSH. {deposit_user}")
             print(f"Your total balance is KSH. {total_balance}")
@@ -37,7 +37,7 @@ while chances != 0:
 #Initializing withdrawal 
         if user_choice == 3:
             
-            withdraw_user = int(input("Enter the amount to be withdrawn :KSH. "))
+            withdraw_user = float(input("Enter the amount to be withdrawn :KSH. "))
             print(f"Your withdrawal of KSH. {withdraw_user} was diclined")
             if Bal - withdraw_user < Min_bal:
                 print(f"Insufficient funds. Your balance cannot be less than your Min_bal KSH. {Min_bal}")
